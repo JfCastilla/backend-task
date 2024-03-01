@@ -89,7 +89,7 @@ DATABASES = {
         'PORT': '3306',
         'OPTIONS': {
             'ssl': {
-                'ssl_mode': 'require'
+                'ca': 'DigiCertGlobalRootCA.crt.pem'
             }
         }
     }
