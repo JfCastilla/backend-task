@@ -83,12 +83,17 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'tasks',
-        'USER':'vebgkxownt',
-        'PASSWORD':'6KO5SDRIC1X0NB84$',
-        'HOSTNAME': 'tasks-server.mysql.database.azure.com',
-        'PORT':'3306'
+        'USER': 'vebgkxownt',
+        'PASSWORD': '6KO5SDRIC1X0NB84$',
+        'HOST': 'tasks-server.mysql.database.azure.com',
+        'PORT': '3306',
+        'ssl': {
+            'ca': 'certifiacdo\DigiCertGlobalRootCA.crt.rem'
+        }
+        
     }
 }
+
 
 
 # Password validation
