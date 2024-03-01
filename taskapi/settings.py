@@ -88,7 +88,7 @@ DATABASES = {
         'HOST': 'tasks-server.mysql.database.azure.com',
         'PORT': '3306',
         'ssl': {
-            'ca': 'certifiacdo\DigiCertGlobalRootCA.crt.rem'
+            'ca': 'certificado\DigiCertGlobalRootCA.crt.rem'
         }
         
     }
