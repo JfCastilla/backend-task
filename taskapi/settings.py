@@ -86,11 +86,7 @@ DATABASES = {
         'USER': 'vebgkxownt',
         'PASSWORD': '6KO5SDRIC1X0NB84$',
         'HOST': 'tasks-server.mysql.database.azure.com',
-        'PORT': '3306',
-        'ssl': {
-            'ca': 'certificado\DigiCertGlobalRootCA.crt.rem'
-        }
-        
+        'PORT': '3306',        
     }
 }
 
